@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="container">
+      <a href="https://tome.app/rachelschool/the-last-uncontacted-tribe-a-glimpse-into-the-mysterious-world-of-the-sentinelese-clkx0vd2c005bo75qq6b6q1hb">Explore</a>
+      <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+              <img src="static/SLIDE1.png">
+              </div>
+              <div class="swiper-slide">
+                <img src="static/SLIDE2.png"></div>
+              <div class="swiper-slide">
+                <img src="static/SLIDE3.png"></div>
+              <div class="swiper-slide">
+                <img src="static/SLIDE4.png"></div>
+              <div class="swiper-slide">
+                <img src="static/SLIDE5.png"></div>
+                <div class="swiper-slide">
+                  <img src="static/SLIDE6.png"></div>
+                  <div class="swiper-slide">
+                    <img src="static/SLIDE7.png"></div>
+                    <div class="swiper-slide">
+                      <img src="static/SLIDE8.png"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+       
+          </div>
+
+    </div>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&display=swap');
+*{ margin: 0;
+   padding: 0;
+   box-sizing:border-box ;
+   height: 560px;
+  
+  
+   }
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #0f1116;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+  color:antiquewhite;
+  font-size: 24px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  border: 2px solid antiquewhite;
+  padding: 10px;
+  border-radius: 40px;
+  margin-top: 2px;
+  display: block;
+  width: 200px;
+  height: 55px;
+  margin: auto;
+  text-align: center;
+}
+body{
+  overflow : hidden;
+  margin-top: 0;
+}
+.swiper{
+    width: 65%;
+    height: fit-content;
+   
+}
+
+.swiper-slide img{
+    width: 100%;
+    ;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: antiquewhite;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: antiquewhite;
+}
+
+    </style>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    
+  
+  });
+</script>
+
+</body>
+</html>
+    

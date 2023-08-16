@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins&family=Roboto+Condensed&display=swap');        
+h2{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+p{ margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;}
+
+.img-slider{ 
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 10px;
+    background: #1d212b ;
+}
+img-slider .slide{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}    
+.img-slider .slide img{
+    z-index: 1;
+    width: 100%;
+    border-radius: 5px;
+}
